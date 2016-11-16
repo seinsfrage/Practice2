@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	
+	<meta charset="utf-8">
+    
+    <title>Reservation: El Amigo</title>
+    
+    <style>
+        * {margin: 0
+            padding: 0}
+        
+        body {background: black url("background.jpg") top center no-repeat;
+            font-size: 20px; 
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: lighter;
+            text-align: center;
+            padding: 40px;
+            color: #333;
+            }
+        h1, h2, h3, h4, h5, h6 {font-weight: bold;
+        margin: 0 0 10px;
+        padding: 0 0 10px;}
+        
+        #wrapper {width: 700px;
+                margin: 0 auto;}
+ 
+        #content {color: black; border: solid 2px E05252; margin-bottom: 20px;}
+        
+        #reserve {background-color: #E05252; padding: 15px; margin-top: 15px; margin-bottom: 15px;}
+        
+        form {text-align: right;}
+        
+        #footer {background-color: black; color: white;}
+        
+        #par1 {font-weight: bold;}
+        
+    </style>
+    
+</head>
+    
+<body>
+    <div id="wrapper">
+       
+        <div id="header">
+            <a href="/" title="Return to Home Page" id="logo"> 
+            <img src="logo.png" alt="El Amigo Pub Logo"></a>
+        </div><br>
+        
+        <div id="content" class="content-block">
+            <h1>Best Craft Beer Selection in Barcelona!</h1>
+                <p id="par1">Vivamus hendrerit, sapien ut vestibulum tincidunt, nisl risus tincidunt tellus, a ullamcorper massa orci quis risus. Suspendisse vitae sem non risus laoreet tincidunt vel nec arcu. Integer dictum iaculis est, nec auctor nisl malesuada bibendum. Proin et purus maximus, rutrum odio vel, congue augue.</p>
+        </div>
+        
+        <div id="reserve" class="content-block">
+            <h2>Make a Reservation</h2>
+                <p>Etiam a velit leo. Mauris placerat porttitor purus in efficitur. Phasellus posuere nisl id orci blandit, eget gravida augue efficitur. Donec pellentesque magna dolor, non mollis diam sagittis et.</p>
+        </div>
+        
+        <form>
+            <label for="your_name">Your Name:</label>
+            <input type="text" id="your_name" placeholder="Your Name"><br>
+            
+            <label for="your_email">Email:</label>
+            <input type="email" id="your_email" placeholder="Your Email Address"><br>
+            
+            <label for="your_reservation">Reservation Time:</label>
+            <input type="text" id="your_reservation" placeholder="Enter Time"><br>
+            
+            <input type="submit" value="Submit"><br><br>
+            
+        </form>
+            
+        <div id="footer">&copy; 2016 El Amigo</div>
+
+        
+        
+    </div> <!--end wrapper div-->
+
+</body>
+
+</html>
