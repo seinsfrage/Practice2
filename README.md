@@ -1,3 +1,3 @@
 # Practice2
 
-More practice pages with HTML and CSS
+8 -10 websites I built as practice wityh HTML and CSS
